@@ -7,7 +7,7 @@ let titulo = document.querySelector('h1');
 titulo.innerHTML = 'Jogo do número secreto';
 
 let paragrafo = document.querySelector('p');
-paragrafo.innerHTML = `Tente adivinhar o número secreto entre 1 e ${numeroLimite}!`;
+paragrafo.innerHTML = `Descubra o número secreto entre 1 e ${numeroLimite}!`;
 
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
